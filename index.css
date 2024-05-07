@@ -1,0 +1,135 @@
+body{
+    background-color: blue;
+}
+header{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'sans-serif';
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+#container{
+    width: 100% !important;
+}
+#logocar{
+    width: 100% !important;
+}
+#logo{
+    display: flex;
+    background-color: aqua;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+}
+#logo img{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+}
+#logo h1{
+    margin: 20px 0px 0px 30px;
+    font-size: 22px;
+}
+#menu{
+    width: 100%;
+    float:right;
+    background-color: aqua;
+}
+#menu ul{
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    width: 100%;
+}
+
+#menu ul li{
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(245, 247, 246);
+    border-radius: 10px;
+    padding: 3px;
+}
+#searchbar{
+    width: 50%;
+    margin: 0px ;
+    padding: 0px 0px 5px 10px;
+}
+.btn{
+    margin: 0px 0px 0px 0px !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    border: 2px solid black !important;
+    border-radius: 10px !important;
+}
+h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'sans-serif';
+}
+#f1{
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(221, 238, 238);
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+#invite{
+    width: 50%;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(221, 238, 238);
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+#ft{
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(173, 171, 171);
+    opacity: 80%;
+    font-size: 12px;
+    font-family: 'sans-serif';
+    padding: 5px;
+}
+#ft h2{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'sans-serif';
+}
+
+#sales{
+    margin-bottom:130px;
+    width: 100%;
+    background-image: url(./media/beachfront.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed !important;
+}
+form{
+    width: 50%;
+}
+#subscribe{
+    justify-content: space-evenly;
+}
