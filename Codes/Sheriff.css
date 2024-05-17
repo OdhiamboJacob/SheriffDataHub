@@ -1,0 +1,402 @@
+body{
+    background-color:rgb(214, 199, 193) !important;;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 0%;
+    margin-top: 70px !important;
+    margin-bottom: 80px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+header{
+    top:0;
+    position: fixed;
+    margin: 0px !important;
+    width: 100%;
+}
+.btn{
+    width: 75px;
+    height: 30px;
+    background: orange;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s ease;
+    font-family: 'Times New Roman';
+}
+.btn:hover{
+    background-color: white;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+}
+.info1{
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+
+}
+.test{
+    padding : 10px;
+    font-family:'Cambria';
+    line-height: 20px;
+    background-color:rgb(239, 243, 225);
+    flex:auto;
+}
+.navbar{
+    display: flex;
+    background-color:  rgb(43, 159, 226);
+    height: 60px;
+    width: 100%;
+    top: 0;
+}
+.icon{
+    width:auto;
+    height: 60px;
+    top: 0;
+    display: flex;
+    padding: 5px;
+}
+.logo{
+    font-weight:bold;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+    top: 0;
+}
+main{
+    flex: 50%;
+    background-color: azure;
+}
+aside{
+    background-color: rgb(102, 255, 0);
+    width: auto;
+    float: right;
+    font-family: 'Times New Roman';
+    line-height: 30px;
+    padding: 10px;
+}
+menu{
+    display:flex;
+    width: 100%;
+    height: 60px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 159, 226);
+}
+ul li{
+    list-style:none;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration:none ;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: coral;
+    background-color: aqua;
+}
+.searchbar{
+    margin-left: 70px;
+    mask-position: right;
+    margin-top: 10px;
+
+}
+.foot{
+    background-color: rgb(110, 187, 74);
+    font-family: fantasy;
+    display: flex;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+.umbrela{
+    margin: 20px 0px 0px 5px;
+    font-size: 14px;
+}
+.contact{
+    margin-left: 20%;
+    font-size: 14px;
+    float: left;
+}
+.navbar ul li:hover{
+    background-color: rgb(71, 33, 33);
+    border-radius: 5px;
+    color: blue;
+}
+.sub-menu1{
+    display: none;
+}
+.navbar ul li:hover .sub-menu1{
+    display: block;
+    position:absolute;
+    background: rgb(102, 255, 0);
+    margin-left: 0%;
+    margin-right: 5px;
+    text-align: left;
+}
+.navbar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin:5px;
+    padding: 0%;
+}
+.navbar ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 10px;
+
+}
+image{
+    width: 200px;
+    height: 400px;
+}
+#comup{
+    background-color:rgb(214, 199, 193);
+    border-radius: 5px;
+}
+
+#comingUp{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+#comingUp div{
+    margin: 0px 5px 0px 5px !important;
+    width: 100%;
+    justify-content: space-evenly !important;
+}
+#comingUp img{
+    width: 300px;
+    height: 200px;
+}
+#awarded img{
+    height: 400px !important;
+    width: 600px !important;
+    justify-content: space-evenly !important;
+}
+#awarded{
+    background-color:rgb(214, 199, 193);
+}
+#gucha{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+#gucha div{
+    margin: 0px 5px 0px 5px !important;
+    width: 100%;
+}
+.flexcont{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.GIS{
+    display: flex;
+}
+.flexcont div{
+    margin: 0px 5px 0px 5px !important;
+    width: 100%;
+    justify-content: space-evenly !important;
+    padding: 2px;
+}
+.Engineering ul{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(214, 199, 193) !important;
+}
+
+.Engineering ul li{
+    list-style:decimal !important;
+    font-size: 16px;
+    width: 100%;
+}
+#ourStory{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ourStory img{
+    height: 200px !important;
+    width: 400px !important;
+}
+
+#ourStory p{
+    width: 50%;
+}
+#followUs{
+    background-color:rgba(177, 192, 124,0.5);
+    margin-bottom: 80px !important;
+}
+#icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+#icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#icon a:hover{
+    color: blue;
+    background-color: rgb(233, 204, 43);
+    border-radius: 10px;
+    padding: 5px;
+}
+#icon ion-icon{
+    font-size: 25px;
+    color: white !important;;
+}
+h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: capitalize;
+}
+#Email{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+#Email a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#Email a:hover{
+    color: blue;
+    background-color: rgb(233, 204, 43);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+@media only screen and (max-width:600px){
+    .navbar{
+        display: flex;
+        height: auto !important;;
+    }
+    .menu ul{
+        display: block !important;
+    }
+    .sub-menu1{
+        margin-left: 10px;
+        float: right;
+    }
+
+    body {
+        width: 100%;
+        margin: 90px 0px 110px 0px;
+    }
+    .info1{
+        display: block;
+        width: 100%;
+    }
+    #Rec, .GIS, .flexcont{
+        display: block;
+        width: 100%;
+    }
+    #story{
+        padding-top: 120px;
+    }
+    #ourStory{
+        display: block;
+        width: 100% !important;
+    }
+    #ourStory p{
+        width: 100%;
+        display: block;
+    }
+    #gucha{
+        display: block;
+    }
+    #comingUp{
+        display: block;
+    }
+    #followUs{
+        width: 100%;
+        margin-bottom: 70px !important;
+    }
+    #icon{
+        display:-ms-inline-grid;
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1100px) {
+    .navbar{
+        height: auto !important;
+    }
+    body {
+        background-color: rgb(214, 199, 193);
+    }
+    .info1{
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+    aside, .test{
+    float: left;
+    width: 100%;
+    }
+    #Rec, .GIS, .flexcont{
+        display: block;
+        width: 100%;
+    }
+    #story{
+        padding-top: 120px;
+    }
+    #ourStory{
+        display: block;
+        width: 100% !important;
+    }
+    #ourStory p{
+        width: 100%;
+        display: block;
+    }
+    #gucha{
+        display: block;
+    }
+    #comingUp{
+        display: block;
+    }
+    #followUs{
+        width: 100%;
+        margin-bottom: 70px !important;
+    }
+    #icon{
+        display:-ms-inline-grid;
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+    #ourStory p{
+        width: 50% !important;
+    }
+    #ourStory img{
+        width:400px;
+    }
+
+}
